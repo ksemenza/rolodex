@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Behavior Rolodex</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile_new">ProfileNew</string>
+    <string name="notes">Additional Information</string>
+    <string name="lname">Last Name</string>
+    <string name="fname">First Name</string>
+</resources>

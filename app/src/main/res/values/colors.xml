@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#9FA8DA</color>
+
+    <color name="colorPrimaryDarker">#0d28a1</color>
+
+    <color name="fab_second_activity">#5E35B1</color>
+    <color name="fab_second_pressed">#B388FF</color>
+    <color name="fab_second_ripple">#B388FF</color>
+    <color name="fab_second_label">#7E57C2</color>
+
+    <color name="inputText">#0D47A1</color>
+</resources>
