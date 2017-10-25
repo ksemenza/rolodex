@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "92904659509",
-    "firebase_url": "https://behaviorrolodex.firebaseio.com",
-    "project_id": "behaviorrolodex",
-    "storage_bucket": "behaviorrolodex.appspot.com"
+    "project_number": "823397236126",
+    "firebase_url": "https://behavior-rolodex.firebaseio.com",
+    "project_id": "behavior-rolodex",
+    "storage_bucket": "behavior-rolodex.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:92904659509:android:73dff66b4949282e",
+        "mobilesdk_app_id": "1:823397236126:android:73dff66b4949282e",
         "android_client_info": {
           "package_name": "com.guinproductions.behaviorrolodex"
         }
       },
       "oauth_client": [
         {
-          "client_id": "92904659509-sidr9lmd40qgstv464i8csshikigb8bv.apps.googleusercontent.com",
+          "client_id": "823397236126-h9iqbgeuqiv32640ttqie7mojupb0o0k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.guinproductions.behaviorrolodex",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "92904659509-qnqh9mq1rb0fu8f47fcri6kvolq4npj4.apps.googleusercontent.com",
+          "client_id": "823397236126-s7rrlab4j8fmlpuffbaec2qnhpjcjm0v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBizzN2bKL72KCNq2Rk2BHZcQXC82XEGc"
+          "current_key": "AIzaSyBZ8hI3YeRnAWuWlsIiMq9kAUPlVFxmdh8"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "92904659509-qnqh9mq1rb0fu8f47fcri6kvolq4npj4.apps.googleusercontent.com",
+              "client_id": "823397236126-s7rrlab4j8fmlpuffbaec2qnhpjcjm0v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
