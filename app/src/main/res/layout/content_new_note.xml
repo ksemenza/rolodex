@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.NoteNew"
+    tools:showIn="@layout/activity_new_note">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/fname_lname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+      >
+
+        <TextView
+            android:id="@+id/view_fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/fname"
+            android:textColor="@color/secondaryPrimaryDarker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_lname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="@string/lname"
+            android:textColor="@color/secondaryPrimaryDarker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:id="@+id/date_time"
+        android:layout_margin="10dp"
+        android:visibility="invisible"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_view"
+        android:text="@string/date"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_view"
+        android:text="@string/time"
+        />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_title_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+
+        android:layout_below="@+id/date_time"
+        android:textColorHint="@color/secondaryPrimaryDark">
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            android:paddingLeft="15dp"
+            android:hint="@string/title"
+            android:textSize="14sp"
+            android:shadowDx="@integer/google_play_services_version"
+            android:shadowDy="@integer/google_play_services_version"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_content_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_below="@+id/edit_title_wrapper"
+        android:textColorHint="@color/secondaryPrimaryDark">
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/apptheme_edit_text_holo_light"
+            android:elevation="5dp"
+            android:gravity="top"
+            android:hint="@string/note_new"
+            android:inputType="textMultiLine"
+            android:maxLines="18"
+            android:minLines="18"
+            android:scrollbars="vertical"
+            android:shadowDx="@integer/google_play_services_version"
+            android:shadowDy="@integer/google_play_services_version"
+            android:textSize="14sp"
+           />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>
