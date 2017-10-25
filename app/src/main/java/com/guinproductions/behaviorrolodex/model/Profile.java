@@ -10,7 +10,7 @@ import java.util.Map;
  */
 
 public class Profile {
-    public String uid;
+    public String profileid;
     public String fname;
     public String lname;
     public String noted;
@@ -20,8 +20,8 @@ public class Profile {
 
     }
 
-    public Profile(String uid, String fname, String lname, String noted){
-        this.uid = uid;
+    public Profile(String profileid, String fname, String lname, String noted){
+        this.profileid = profileid;
         this.fname = fname;
         this.lname = lname;
         this.noted = noted;
@@ -34,7 +34,7 @@ public class Profile {
     @Exclude
     public Map<String, Object> profileMap(){
         HashMap<String, Object> result = new HashMap<>();
-        result.put("uid", uid);
+        result.put("profileid", profileid);
         result.put("fname", fname);
         result.put("lname", lname);
         result.put("noted", noted);
@@ -43,9 +43,31 @@ public class Profile {
         return result;
     }
 
-    public String getUid(){return uid;}
+    public String getProfileid(){return profileid;}
 
-    public String setUid(String uid){this.uid = uid;
-        return uid;
+    public String setProfileid(String profileid){this.profileid = profileid;
+        return profileid;
+    }
+
+    public String getFname(){return fname;}
+
+    public String setFname(String fname){this.fname = fname;
+        return fname;
+    }
+    public String getLname(){return lname;}
+
+    public String setLname(String lname){this.lname = lname;
+        return lname;
+    }
+    public String getNoted(){return noted;}
+
+    public String setNoted(String noted){this.noted = noted;
+        return noted;
+    }
+
+    public String getImageview(){return imageview;}
+
+    public String setImageview(String imageview){this.imageview = imageview;
+    return imageview;
     }
 }
